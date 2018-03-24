@@ -53,8 +53,8 @@
         "post-install-cmd": [
      "php artisan clear-compiled",
     
-     "chmod -R 775 public/"
-     "php artisan migrate"
+     "chmod -R 775 public/",
+     "php artisan migrate",
      "php artisan db:seed"
  ]
     },
